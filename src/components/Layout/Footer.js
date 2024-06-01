@@ -1,6 +1,6 @@
 import { GitHub, Instagram, Twitter, YouTube } from '@mui/icons-material'
 import { Box, Typography } from '@mui/material'
-import React from 'react'
+import React from 'react';
 
 export const Footer = () => {
     return (
@@ -27,7 +27,7 @@ export const Footer = () => {
                     '@media (max-width:600px)': {
                         fontSize: '1rem',
                     }
-                }}>All Rights Reserved &copy; Techinfo YT</Typography>
+                }}>All Rights Reserved &copy;</Typography>
             </Box>
         </>
     )
